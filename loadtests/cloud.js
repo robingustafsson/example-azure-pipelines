@@ -19,6 +19,7 @@ export let options = {
     ext: {
         loadimpact: {
             name: "test.loadimpact.com",
+            projectID: 3113635,
             distribution: {
                 loadZoneLabel1: { loadZone: "amazon:us:ashburn", percent: 60 },
                 loadZoneLabel2: { loadZone: "amazon:ie:dublin", percent: 40 }
