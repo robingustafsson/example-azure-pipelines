@@ -6,5 +6,5 @@ pool:
 steps:
   - task: k6-load-test@0
     inputs:
-      filename: 'test.js'
+      filename: 'loadtests/cloud.js'
       cloud: true
